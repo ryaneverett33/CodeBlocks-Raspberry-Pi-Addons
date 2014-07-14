@@ -12,18 +12,18 @@ Then simply follow the instructions for installation.
 ## Installation
 <b>Close down Code::Blocks before starting.</b>
 Open Files with root priviledges.
-'''term
+```term
 gksu nautilus
-'''
+```
 Navigate to /usr/share/codeblocks
 Open the "compilers" folder and copy "compiler_rpi.xml" and "options_rpi.xml" into it.
 Close the "compilers" folder, open up the "templates" folder, and then open the "wizards" folder. Copy the "raspberrypi" folder into this folder.
 Open Code::Blocks and click FIle > Create a new Project.
 Right-click in the white space and click "Edit global registration script".
 Add the following lines to the script in the "RegisterWizards" function.
-'''term
+```term
 RegisterWizard(wizProject,     _T("raspberrypi"),  _T("Raspberry Pi application"),_T("Raspberry Pi"));
-'''
+```
 Save, Close, and then Restart Code::Blocks for the project option to show up.
 
 ## Notes
