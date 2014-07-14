@@ -1,2 +1,2 @@
-CodeBlocks-Raspberry-Pi-Addons
+CodeBlocks Addons [R-PI]
 ==============================
