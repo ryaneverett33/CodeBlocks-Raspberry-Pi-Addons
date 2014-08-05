@@ -1,0 +1,4 @@
+function RegisterWizards()
+{
+	RegisterWizard(wizProject,     _T("raspberrypi"),  _T("Raspberry Pi application"),_T("Raspberry Pi"));
+}
